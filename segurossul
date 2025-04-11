@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Segurosul Corretora de Seguros oferece soluções em seguros de vida, saúde, residenciais e empresariais em Curitiba. Proteção e confiança desde 2009.">
+  <meta name="keywords" content="seguros, corretora, vida, saúde, previdência, residencial, empresarial, Curitiba">
+  <meta name="author" content="Segurosul Corretora de Seguros">
+  <meta name="robots" content="index, follow">
+  <title>Segurosul Corretora de Seguros | Segurança e Confiança</title>
+  <link rel="canonical" href="https://www.segurosul.com.br/">
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+    .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .header {
+      background: url('https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=1000&q=80') center/cover no-repeat;
+      padding: 40px 20px;
+      color: white;
+      text-align: center;
+      border-radius: 5px 5px 0 0;
+    }
+    h1, h2 { color: #2c3e50; }
+    ul { list-style: none; padding: 0; }
+    ul li::before { content: '✅'; margin-right: 8px; }
+    form { display: flex; flex-direction: column; gap: 10px; }
+    input, select, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    button { background-color: #2c3e50; color: #fff; padding: 10px; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background-color: #34495e; }
+    .testimonial, .about { margin-top: 40px; }
+    .testimonial blockquote { background: #f0f8ff; padding: 15px; border-left: 5px solid #0077b6; margin: 15px 0; }
+    .testimonial cite { display: block; margin-top: 10px; font-style: normal; color: #555; }
+    .footer {
+      margin-top: 40px;
+      padding: 30px 20px;
+      background-color: #2c3e50;
+      color: #fff;
+      border-radius: 0 0 5px 5px;
+      text-align: center;
+    }
+    .footer p { margin: 5px 0; }
+    .footer a { color: #ffdd57; text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🛡️ Segurosul Corretora de Seguros</h1>
+      <p><strong>Protegendo o que é importante para você desde 2009</strong></p>
+      <p>📍 Curitiba - PR | 📞 (41) 9962-5755 | ✉️ segurosul@gmail.com</p>
+    </div>
+
+    <div class="about">
+      <h2>Quem Somos</h2>
+      <p>A <strong>Segurosul Corretora de Seguros</strong> é uma empresa com mais de 15 anos de atuação no mercado, oferecendo soluções completas e personalizadas em seguros. Nosso compromisso é proteger a sua vida, seu patrimônio e o futuro da sua família com seriedade, ética e excelência no atendimento.</p>
+      <p>Com sede em Curitiba, contamos com uma equipe qualificada e em constante atualização para garantir que nossos clientes recebam o melhor suporte, desde a contratação até o momento de acionar o seguro. Nossa missão é ser referência em confiança e transparência no setor de seguros.</p>
+    </div>
+
+    <h2>Conheça nossas soluções:</h2>
+    <ul>
+      <li>Seguros de Vida</li>
+      <li>Planos de Saúde e Previdência</li>
+      <li>Seguros Residenciais e Empresariais</li>
+      <li>Assistência para Instituições Financeiras</li>
+      <li>Treinamentos Profissionais</li>
+    </ul>
+
+    <h2>Por que escolher a Segurosul?</h2>
+    <ul>
+      <li>Confiabilidade: Mais de 15 anos de experiência</li>
+      <li>Atendimento Personalizado</li>
+      <li>Especialistas qualificados</li>
+      <li>Diversidade de Serviços</li>
+    </ul>
+
+    <div class="testimonial">
+      <h2>O que dizem nossos clientes</h2>
+      <blockquote>
+        “Fui muito bem atendido pela equipe da Segurosul! Me explicaram tudo com clareza e agilidade. Hoje tenho meu seguro de vida e plano de saúde com eles. Recomendo!”
+        <cite>— Mariana Costa, Curitiba/PR ⭐⭐⭐⭐⭐</cite>
+      </blockquote>
+      <blockquote>
+        “A Segurosul realmente se importa com o cliente. Me ajudaram em cada passo, com atenção e honestidade. Muito satisfeita com o atendimento!”
+        <cite>— João Ribeiro, São José dos Pinhais/PR ⭐⭐⭐⭐⭐</cite>
+      </blockquote>
+      <blockquote>
+        “Profissionalismo e confiança definem essa corretora. Já indiquei para toda a minha família.”
+        <cite>— Ana Lúcia Mendes, Colombo/PR ⭐⭐⭐⭐⭐</cite>
+      </blockquote>
+    </div>
+
+    <h2>📲 Fale com um especialista</h2>
+    <form method="POST" action="/enviar-contato">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <input type="tel" name="telefone" placeholder="Seu telefone" required>
+      <select name="interesse" required>
+        <option value="">Selecione o serviço de interesse</option>
+        <option value="vida">Seguro de Vida</option>
+        <option value="saude">Plano de Saúde / Previdência</option>
+        <option value="residencial">Seguro Residencial / Empresarial</option>
+        <option value="instituicoes">Assistência para Instituições Financeiras</option>
+        <option value="treinamento">Treinamento Profissional</option>
+      </select>
+      <button type="submit">Enviar</button>
+    </form>
+
+    
+    
+      <div style="margin: 40px auto; text-align: center">
+      <h3>📍 Localização</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.913850934468!2d-49.26821292395757!3d-25.41873577756674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce59b4315c207%3A0x6dc790d1052bd722!2sR.%20Augusto%20Stresser%2C%20573%20-%20Alto%20da%20Gl%C3%B3ria%2C%20Curitiba%20-%20PR%2C%2080030-340!5e0!3m2!1spt-BR!2sbr!4v1712774100000!5m2!1spt-BR!2sbr"
+        width="100%" height="300" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+
+      <p><div class="footer" style="background: linear-gradient(to right, #0077b6, #00b4d8); color: white; padding: 40px 20px; border-radius: 0 0 10px 10px; text-align: center;">
+  <p style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;">Segurosul Corretora de Seguros LTDA</p>
+  <p>CNPJ: 10.818.304/0001-14</p>
+  <p>📍 Rua Augusto Stresser, 573 – Andar 2, Apto 202, Alto da Glória, Curitiba – PR</p>
+  <p>📧 <a href="mailto:segurosul@gmail.com" style="color: #fff; text-decoration: underline;">segurosul@gmail.com</a> | 📞 <a href="tel:+554199625755" style="color: #fff; text-decoration: underline;">(41) 9962-5755</a></p>
+  <p><a href="/politica-de-privacidade.html" style="color: #ffdd57;">Política de Privacidade</a> | <a href="/termos-de-uso.html" style="color: #ffdd57;">Termos de Uso</a></p>
+  <p style="margin-top: 15px; font-size: 0.9em;">© 2025 Segurosul Corretora de Seguros. Todos os direitos reservados.</p>
+</div>
+    </div>
+  </div>
+</body>
+</html>
